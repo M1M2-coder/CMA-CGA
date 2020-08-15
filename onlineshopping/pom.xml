@@ -15,6 +15,12 @@
 		<jstl.version>1.2</jstl.version>
 	</properties>
 	<dependencies>
+		<!-- Linking backend project -->
+		<dependency>
+			<groupId>com.m2m</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<!-- Spring -->
 		<dependency>
